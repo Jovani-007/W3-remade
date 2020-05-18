@@ -1,0 +1,40 @@
+body {
+    background-color: snow;
+}
+
+.site-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    transform: scale(.2);
+    opacity: .2;
+    animation: linear 1s animacaoTitulo forwards;
+}
+
+@keyframes animacaoTitulo {
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+a {
+    color: blue;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    text-align: justify;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+dl, 
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
